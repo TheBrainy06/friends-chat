@@ -10,12 +10,13 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyBAG_YTYffDrNgV-NL0K2W_Mefw8xiF_mQ",
+    authDomain: "friends--chat.firebaseapp.com",
+    projectId: "friends--chat",
+    storageBucket: "friends--chat.appspot.com",
+    messagingSenderId: "931812131826",
+    appId: "1:931812131826:web:8f2e0fe782e4f1fa5ee16b",
+    measurementId: "G-J2VNDD8QL0"
 });
 
 const MoonIcon = props => (
@@ -150,9 +151,7 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="https://alterclass.io/courses/react">
-          <img src={brandLogo} alt="AlterClass" width={150} />
-        </a>
+
         <div className="flex items-center">
           {user ? (
             <button
