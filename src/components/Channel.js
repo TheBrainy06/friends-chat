@@ -45,7 +45,7 @@ const Channel = ({ user = null }) => {
       // Clear input field
       setNewMessage('');
       // Scroll down to the bottom of the list
-      bottomListRef.current.scrollIntoView({ behavior: 'smooth' });
+      bottomListRef.current.scrollIntoView({ behavior: 'instant' });
     }
   };
 
